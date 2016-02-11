@@ -1,0 +1,19 @@
+{
+    "name": {
+        "en": "Doku Wiki"
+    },
+    "description_short": {
+        "en": "Doku Wiki"
+    },
+    "visibility": "always",
+    "publisher_contact": "bastien.vallet@gmail.com",
+    "categories": [
+        "productivity"
+    ],
+    "publication_date": "2016-01-30",
+    "publisher_name": "Djailla",
+    "supported_languages": [
+        "en"
+    ],
+    "website_url": "https://github.com/Djailla/nas-os-dokuwiki/"
+}
