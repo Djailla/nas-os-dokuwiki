@@ -1,7 +1,5 @@
 #!/bin/bash
 
-mkdir -m 755 -p /opt/dokuwiki/
-
 # Install dependencies
 apt-get update
 apt-get install -y -q apache2 libapache2-mod-php5
