@@ -1,7 +1,7 @@
 {
     "type": "application",
     "id": "com.djailla.dokuwiki",
-    "version": "1.0.0-dev",
+    "version": "1.0.0",
     "depends": [
         "org.debian.wheezy-lamp-1.2"
     ],

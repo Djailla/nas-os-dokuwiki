@@ -10,7 +10,7 @@ APACHE_TEMPLATE_PORTS_CONF="/etc/ports.conf.apache_template"
 sed "s,{RAINBOW_WEB_PATH},$RAINBOW_WEB_PATH,g" $APACHE_TEMPLATE_DEFAULT_SITE > /etc/apache2/sites-available/default
 sed "s/{RAINBOW_PORT_WEB_UI}/$RAINBOW_PORT_WEB_UI/g" $APACHE_TEMPLATE_PORTS_CONF > /etc/apache2/ports.conf
 
-
+# Manage apache2 service
 service apache2 $1
 
 exit 0
