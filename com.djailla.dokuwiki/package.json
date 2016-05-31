@@ -1,11 +1,11 @@
 {
     "type": "application",
     "id": "com.djailla.dokuwiki",
-    "version": "1.0.0",
-    "depends": [
-        "org.debian.wheezy-lamp-1.2"
-    ],
-    "network_ports": {
-        "WEB_UI": 4210
-    }
+    "version": "1.0.1",
+    "depends": ["org.debian.wheezy-lamp-1.2"],
+    "network_ports": {"WEB_UI": 4210},
+    "app_data": [
+        "/var/www/data/",
+        "/var/www/media"
+    ]
 }
