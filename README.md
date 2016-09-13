@@ -5,3 +5,5 @@ DokuWiki - NAS OS App
 It's based on the [DokuWiki](http://liftoffsoftware.com/Products/GateOne) project.
 
 It allow to access to a shell in a web ui.
+
+![Alt text](com.djailla.dokuwiki/resources/screenshots/en/screenshot-1.png?raw=true "Screenshot")

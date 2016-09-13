@@ -1,8 +1,8 @@
 {
     "type": "application",
     "id": "com.djailla.dokuwiki",
-    "version": "1.0.1",
-    "depends": ["org.debian.wheezy-lamp-1.2"],
+    "version": "1.0.2",
+    "depends": ["org.debian.jessie-lamp-1.0"],
     "network_ports": {"WEB_UI": 4210},
     "app_data": [
         "/var/www/data/",
