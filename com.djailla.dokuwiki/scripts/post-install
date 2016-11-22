@@ -1,6 +1,6 @@
 #!/bin/sh
 
 # Remove the index.html provided by the container
-rm /var/www/index.html
+rm /var/www/html/index.html
 
 exit 0

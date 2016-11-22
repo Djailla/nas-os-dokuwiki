@@ -11,8 +11,8 @@ wget http://download.dokuwiki.org/src/dokuwiki/dokuwiki-stable.tgz
 tar xvf dokuwiki-stable.tgz
 
 # Move to www folder
-mv /tmp/dokuwiki/dokuwiki-*/* /var/www
-chown -R www-data:www-data /var/www
+mv /tmp/dokuwiki/dokuwiki-*/* /var/www/html
+chown -R www-data:www-data /var/www/html
 rm -rf /tmp/dokuwiki
 
 # Install scripts
