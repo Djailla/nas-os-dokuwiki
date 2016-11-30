@@ -8,7 +8,7 @@ apt-get install -y -q apache2 libapache2-mod-php5
 mkdir -p /tmp/dokuwiki
 cd /tmp/dokuwiki
 wget http://download.dokuwiki.org/src/dokuwiki/dokuwiki-stable.tgz
-tar xvf dokuwiki-stable.tgz
+tar xf dokuwiki-stable.tgz
 
 # Move to www folder
 mv /tmp/dokuwiki/dokuwiki-*/* /var/www/html
