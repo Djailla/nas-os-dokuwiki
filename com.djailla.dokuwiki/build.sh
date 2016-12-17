@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Install dependencies
+# Install/update dependencies
 apt-get update
-apt-get install -y -q apache2 libapache2-mod-php5
+apt-get upgrade -y -q apache2
 
 # Checkout the source code of dokuwiki
 mkdir -p /tmp/dokuwiki
@@ -11,8 +11,8 @@ wget http://download.dokuwiki.org/src/dokuwiki/dokuwiki-stable.tgz
 tar xf dokuwiki-stable.tgz
 
 # Move to www folder
-mv /tmp/dokuwiki/dokuwiki-*/* /var/www/html
-chown -R www-data:www-data /var/www/html
+mv /tmp/dokuwiki/dokuwiki-*/* /var/www
+chown -R www-data:www-data /var/www
 rm -rf /tmp/dokuwiki
 
 # Install scripts

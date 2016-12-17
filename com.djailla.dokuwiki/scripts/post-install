@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # Remove the index.html provided by the container
-rm /var/www/html/index.html
+rm -r /var/www/html
+rm /etc/apache2/sites-available/*
 
 exit 0
