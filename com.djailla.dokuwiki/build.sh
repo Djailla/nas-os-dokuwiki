@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Install/update dependencies
-apt-get update
-apt-get upgrade -y -q apache2
+# apt-get update
+# apt-get upgrade -y -q apache2
 
 # Checkout the source code of dokuwiki
 mkdir -p /tmp/dokuwiki
